@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   # Find other boxes here: https://atlas.hashicorp.com/boxes/search
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/bionic64"
 
   # Create a private network, which allows host-only access to the machine using a specific IP.
   # The host can access the virutal machine via this internal IP address:
