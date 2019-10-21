@@ -2,7 +2,7 @@
 
 # Use single quotes instead of double quotes to make it work with special-character passwords
 PASSWORD='root'
-PROJECTFOLDER='Project'
+PROJECTFOLDER='../../LampServer'
 
 # create project folder
 sudo mkdir "/var/www/html/${PROJECTFOLDER}"
